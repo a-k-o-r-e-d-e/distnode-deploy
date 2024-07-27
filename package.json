@@ -1,0 +1,29 @@
+{
+  "name": "distnode-deploy",
+  "version": "1.0.0",
+  "description": "Distributed Node.js Sample Project.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/a-k-o-r-e-d-e/distnode-deploy#readme",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-k-o-r-e-d-e/distnode-deploy.git"
+  },
+  "scripts": {
+    "test": "echo \"Fake Tests\" && exit 0"
+  },
+  "dependencies": {
+    "fastify": "3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "bugs": {
+    "url": "https://github.com/a-k-o-r-e-d-e/distnode-deploy/issues"
+  }
+}
