@@ -12,14 +12,18 @@
     "url": "git+https://github.com/a-k-o-r-e-d-e/distnode-deploy.git"
   },
   "scripts": {
-    "test": "echo \"Fake Tests\" && exit 0"
+    "test": "nyc ts-node node_modules/tape/bin/tape ./src/test/**/*.ts"
   },
   "dependencies": {
     "fastify": "3.2"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
+    "@types/tape": "^5.6.4",
+    "node-fetch": "2.6",
     "nodemon": "^3.1.4",
+    "nyc": "^15.1.0",
+    "tape": "^5.8.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },

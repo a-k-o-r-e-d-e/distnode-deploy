@@ -1,5 +1,5 @@
 export default class Recipe{
-    private name: string|null;
+    public name: string|null;
     private id: number;
 
     constructor (id) {
